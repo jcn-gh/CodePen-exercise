@@ -1,0 +1,123 @@
+/*
+		HEADER
+*/
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: black;
+  height: 6.5rem;
+}
+.header-wrapper>.logo img#logo {
+  width: 40%;
+  margin-left: 2rem;
+}
+.header-wrapper>.nav {
+  width: 44%;
+  display: grid;
+  background: black;
+  gap: 10px;
+}
+.header-wrapper>.nav>.item {
+  font-size: 1.7rem;
+  color: #ece187;
+  line-height: 0rem;
+  margin-bottom: 0;
+}
+.header-wrapper>.nav>.>.item>button {
+  border: 0;
+  color: white;
+  background: black;
+  font-weight: bold;
+  margin: .5rem;
+  font-size: 1.7rem;
+}
+/*
+
+.header-wrapper>.nav>.explore {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  background: black;
+}
+
+.header-wrapper>.nav>.explore>.item {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  color: #ece187;
+  background: black;
+  margin-bottom: 0;
+}
+
+.header-wrapper>.nav>.explore>items>item>p {
+  font-size: 1.5rem;
+  color: #ece187;
+  margin-bottom: 0;
+}
+*/
+
+.header-wrapper>.dropdown p {
+  font-size: 1.5rem;
+  margin-bottom: 0;
+}
+.header-wrapper>.dropdown #spark {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: center;
+  border: 0;
+  color: #acacac;
+  background: black;
+  font-weight: bold;
+  margin-left: 1.25rem;
+  font-size: 1.7rem;
+}
+.header-wrapper>.spacer {
+  width: 12%;
+}
+
+.header-wrapper>.actions {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  background: black;
+}
+
+.header-wrapper>.actions>.item button {
+  border: none;
+  color: white;
+  background: #36383f;
+  font-weight: bold;
+  margin: .25rem .5rem;
+  font-size: 1.7rem;
+  padding: 1em;
+  text-align: center;
+  display: inline-block;
+  border-radius: 5%;
+}
+
+.header-wrapper>.actions>.item> button #create {
+  color: #4bce79;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+.header-wrapper>.actions>.item> button #search {
+  background: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#search{
+  background: black;
+  font-weight: bolder;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  color: #36383f;
+  font-size: 150%;
+}

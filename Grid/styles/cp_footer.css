@@ -1,0 +1,23 @@
+.grid-container>.item5 {
+  display: grid;
+  grid-template-areas:
+    'f1 f2 f3 f4';
+  background: grey;
+  align-items: center;
+  margin: 0;
+}
+.grid-container>.item5 > div {
+  height: 75px;
+  text-align: center;
+  color: lightgrey;
+  background: #36383f;
+  border: 1px solid grey;
+  font-size: 1.4em;
+  letter-spacing: -2px;
+}
+.grid-container>.item5 > div b {
+  font-size: 1.8em;
+  color: white;
+  font-variant: small-caps;
+  letter-spacing: -5px;
+}

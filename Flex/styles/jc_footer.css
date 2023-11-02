@@ -1,0 +1,28 @@
+/*
+		FOOTER
+*/
+
+.footer {
+  width: 100%;
+  display: grid;
+}
+
+.footer table {
+  width: 100%;
+  table-layout: auto;
+  border-collapse: collapse;
+}
+
+.footer td {
+  height: 50px;
+  text-align: center;
+  color: lightgrey;
+  background: #36383f;
+  border: 1px solid grey;
+}
+
+.footer td b {
+  font-size: 1.5rem;
+  color: white;
+  font-variant: small-caps;
+}

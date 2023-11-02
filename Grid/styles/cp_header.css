@@ -1,0 +1,115 @@
+.grid-container>.item1 {
+  display: grid;
+  grid-template-areas:
+    'h1 h2 h3 h4 h5';
+  gap: 10px;
+  background: black;
+  padding: 10px;
+  text-align: left;
+  align-items: center;
+}
+.grid-container>.item1>.h1 {
+  width: 250px;
+  height: 47px;
+}
+.grid-container>.item1>.h1 img#logo {
+  width: 250px;
+  margin-left: 2rem;
+  height: 47px;
+}
+
+.grid-container>.item1>.h2 {
+  display: grid;
+  grid-template-areas:
+    'h21'
+    'h22';
+  gap: 15px;
+  background-color: black;
+  margin-top: 10px;
+}
+
+.grid-container>.item1>.h2>.h21 {
+  font-size: 1.25rem;
+  color: #ece187;
+  line-height: 0.5rem;
+  margin-bottom: 0;
+}
+.grid-container>.item1>.h2>.h22 {
+  display: grid;
+  grid-template-areas:
+    'h221 h222 h223 h224';
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.grid-container>.item1>.h2>.h22 >div >button {
+  border: 0;
+  background: black;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.grid-container>.item1>.h2>.h22 >div >button >a{
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: white;
+  background: black;
+}
+
+.grid-container>.item1>.h3>button div {
+  font-size: 1.5rem;
+  margin-bottom: 0;
+}
+.grid-container>.item1>.h3>button#spark {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 12px;
+  padding: 0;
+  border: 0;
+  color: #acacac;
+  background: black;
+  font-weight: bold;
+  margin-left: 1.25rem;
+  font-size: 1.5rem;
+}
+
+.grid-container>.item1>.h5 {
+  display: grid;
+  grid-template-areas:
+    'h51 h52 h53 h54';
+}
+
+.grid-container>.item1>.h5>div button {
+  border: none;
+  color: white;
+  background: #36383f;
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 0.8em 2em;
+  text-align: center;
+  display: inline-block;
+  border-radius: 5px;
+}
+.grid-container>.item1>.h5>div button #create {
+  color: #4bce79;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+#search {
+  color: #7a7d89;
+  background: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
+  font-size: 1.5em;
+}

@@ -1,0 +1,46 @@
+/* Common Styles */
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  color: white;
+  background: black;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Drop-down lists on hovering */
+
+.dropdown {
+  display: inline-block;
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  width: 100%;
+  overflow: auto;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a {
+  display: block;
+  color: black;
+  background: #84c984;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.dropdown-content a:hover {
+  color: white;
+  background: green;
+  font-style: italic;
+  font-weight: bold;
+}

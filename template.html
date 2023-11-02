@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.item1 { grid-area: header; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+.h1 { grid-area: h1; }
+.h2 { grid-area: h2; }
+.h21 { grid-area: h21; }
+.h22 { grid-area: h22; }
+.h221 { grid-area: h221; }
+.h222 { grid-area: h222; }
+.h223 { grid-area: h223; }
+.h224 { grid-area: h224; }
+.h3 { grid-area: h3; }
+.h4 { grid-area: h4; }
+.h5 { grid-area: h5; }
+.h51 { grid-area: h51; }
+.h52 { grid-area: h52; }
+.h53 { grid-area: h53; }
+.h54 { grid-area: h54; }
+.f1 { grid-area: f1; }
+.f2 { grid-area: f2; }
+.f3 { grid-area: f3; }
+.f4 { grid-area: f4; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header'
+    'main right'
+    'footer footer';
+  gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+.grid-container>.item1 {
+  display: grid;
+  grid-template-areas:
+    'h1 h2 h3 h4 h5';
+  gap: 10px;
+  background-color: gold;
+  padding: 10px;
+  text-align: left;
+  align-items: center;
+}
+.grid-container>.item1>.h2 {
+  display: grid;
+  grid-template-areas:
+    'h21'
+    'h22';
+  gap: 10px;
+  background-color: yellow;
+  padding: 10px;
+}
+.grid-container>.item1>.h2>.h22 {
+  display: grid;
+  grid-template-areas:
+    'h221 h222 h223 h224';
+  gap: 10px;
+  background-color: green;
+  padding: 10px;
+}
+.grid-container>.item1>.h5 {
+  display: grid;
+  grid-template-areas:
+    'h51 h52 h53 h54';
+  gap: 10px;
+  background-color: yellow;
+  padding: 10px;
+}
+
+.grid-container>.item5 {
+  display: grid;
+  grid-template-areas:
+    'f1 f2 f3 f4';
+  gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+</style>
+</head>
+<body>
+
+<h1>Grid Layout</h1>
+
+<p>The CSS Grid Layout Module offers a grid-based layout system, with rows and columns, making it easier to design web pages without having to use floats and positioning:</p>
+
+<div class="grid-container">
+  <div class="item1">
+    <div class="h1">h1</div>
+    <div class="h2">
+      <div class="h21">h21</div>
+      <div class="h22">
+        <div class="h221">h221</div>
+        <div class="h222">h222</div>
+        <div class="h223">h223</div>
+        <div class="h224">h224</div>
+      </div>
+    </div>
+    <div class="h3">h3</div>
+    <div class="h4">h4</div>
+    <div class="h5">
+      <div class="h51">h51</div>
+      <div class="h52">h52</div>
+      <div class="h53">h53</div>
+      <div class="h54">h54</div>
+    </div>
+  </div>
+  <div class="item3">Left</div>  
+  <div class="item4">Right</div>
+  <div class="item5">
+    <div class="f1">f1</div>
+    <div class="f2">f2</div>
+    <div class="f3">f3</div>
+    <div class="f4">f4</div>
+  </div>
+</div>
+
+</body>
+</html>

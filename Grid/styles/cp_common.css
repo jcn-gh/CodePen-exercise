@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  font-family: "Helvetica", sans-serif;
+  color: white;
+  background: black;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Drop-down lists on hovering */
+
+.dropdown {
+  display: inline-block;
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  width: 100%;
+  overflow: auto;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a {
+  display: block;
+  color: black;
+  background: #84c984;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.dropdown-content a:hover {
+  color: white;
+  background: green;
+  font-style: italic;
+  font-weight: bold;
+}
+<!--
+
+-->
+.item1 { grid-area: header; }
+.item2 { grid-area: main; }
+.item3 { grid-area: left; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+.h1 { grid-area: h1; }
+.h2 { grid-area: h2; }
+.h21 { grid-area: h21; }
+.h22 { grid-area: h22; }
+.h221 { grid-area: h221; }
+.h222 { grid-area: h222; }
+.h223 { grid-area: h223; }
+.h224 { grid-area: h224; }
+.h3 { grid-area: h3; }
+.h4 { grid-area: h4; }
+.h5 { grid-area: h5; }
+.h51 { grid-area: h51; }
+.h52 { grid-area: h52; }
+.h53 { grid-area: h53; }
+.h54 { grid-area: h54; }
+.f1 { grid-area: f1; }
+.f2 { grid-area: f2; }
+.f3 { grid-area: f3; }
+.f4 { grid-area: f4; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header'
+    'main'
+    'footer';
+  gap: 10px;
+  background: black;
+  height: 170px;
+}

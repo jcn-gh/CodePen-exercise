@@ -1,0 +1,96 @@
+/*
+		MAIN
+*/
+
+.main-container-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(to right bottom,
+      #41454f 0%,
+      #0b0b0b 100%);
+}
+
+.main-container-wrapper>.colum-left {
+  margin-left: 5rem;
+  margin-right: 0rem;
+  color: grey;
+  width: 50%;
+  line-high: 1rem;
+}
+
+.main-container-wrapper>.colum-left>#p1 {
+  margin-top: 2rem;
+  font-size: 3rem;
+}
+
+.main-container-wrapper>.colum-left>#p1 b {
+  color: white;
+}
+
+.main-container-wrapper>.colum-left>#p1 i {
+  color: yellow;
+}
+
+.main-container-wrapper>.colum-left>#p2 {
+  font-size: 2.5rem;
+}
+
+.main-container-wrapper>.colum-left>#p3 {
+  font-size: 2rem;
+  margin: 2rem 0;
+}
+
+.main-container-wrapper>.colum-left>#p3>#SignUpforFree {
+  color: black;
+  background: #4bce79;
+  margin-right: .5rem;
+  padding: .75rem;
+  font-weight: bold;
+}
+
+.main-container-wrapper>.colum-left>#p3>#SignUpforFree:hover {
+  color: white;
+  background: darkgreen;
+}
+
+.main-container-wrapper>.colum-left>#p3>#LearnMore {
+  color: white;
+  background: black;
+  padding: .75rem;
+  font-weight: bold;
+}
+
+.main-container-wrapper>.colum-left>#p3>#LearnMore:hover {
+  color: black;
+  background: darkgrey;
+}
+
+.main-container-wrapper>.colum-right {
+  width: 50%;
+}
+
+.main-container-wrapper>.colum-right #this-is {
+  font-size: 1.4rem;
+  margin-top: 5%;
+  margin-left: 19%;
+  font-weight: bold;
+}
+
+.main-container-wrapper>.colum-right p {
+  margin-left: 17%;
+}
+
+.main-container-wrapper>.colum-right span {
+  color: #78daf6;
+}
+
+.main-container-wrapper>.colum-right #lmr7a8E {
+  width: 100%;
+  float: right;
+
+}
+
